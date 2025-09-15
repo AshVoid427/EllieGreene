@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ellie Greene</title>
+  <meta name="description" content="Ellie is a South Florida artist specializing in miniature painting and mixed media." />
+  <meta property="og:title" content="Ellie — Artist Portfolio" />
+  <meta property="og:description" content="Miniatures • Mixed Media • Commissions" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- Header/Nav -->
+  <header class="site-header">
+    <a class="logo" href="index.html">Ellie</a>
+    <nav class="nav">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+  </nav>
+  <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </header>
+  
+  
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Miniatures & Mixed Media</h1>
+        <p>Hand‑painted details, bold color, and pieces that tell a story. Explore Ellie’s latest works and commission availability.</p>
+        <p><a class="btn" href="portfolio.html">View Portfolio</a> <a class="btn ghost" href="contact.html">Commission Inquiry</a></p>
+      </div>
+      <figure class="hero-img"> <!--Place holder for actual image and image name-->
+        <img src="assets/img/hero.jpg" alt="Collage of Ellie’s artwork" />
+      </figure>
+    </section>
+  
+  
+    <section class="highlights">
+      <h2>Highlights</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Miniature Painting</h3>
+          <p>Warhammer, D&D, and display pieces with competition‑ready finish.</p>
+        </article>
+        <article class="card">
+          <h3>Custom Commissions</h3>
+          <p>From single heroes to full squads. Clear timelines, fair pricing.</p>
+        </article>
+        <article class="card">
+          <h3>Mixed Media</h3>
+          <p>Texture, contrast, and story—canvas and dimensional works.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="site-footer">
+    <small>© <span id="y"></span> Ellie • All rights reserved.</small>
+  </footer>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
