@@ -1,0 +1,41 @@
+<!doctyope html>
+<html lang ="en">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Ellie Greene </title>
+  <meta name="description" content="About Ellie: background, process, and values as an artist." />
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Ellie</a>
+    <nav class="nav">
+      <!-- Home Button-->
+      <a href="index.html">Home</a>
+      <!-- Portfolio button-->
+      <a href="portfolio.html">Portfolio</a>
+      <!-- About Me button-->
+      <a href="about.html">About Me</a>
+      <!--Contact button-->
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </header>
+
+  <!--This is where the page information is at-->
+  <main>
+    <header class="page-header"><h1>About Ellie Greene</h1></header>
+    <section class="about">
+      <img class="headshot" scr="assets/img/ellie.jpg" alt="Ellie headshot" />
+      <div>
+        <p>DECRIPTION</p>
+        <p>DESCRIPTION 2</p>
+        <p><a class="btn" href="portfolio.thml">See the work</a></p>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="site-footer"><small>© <span id="y"></span>Ellie</small></footer>
+  <script>document.gelElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
